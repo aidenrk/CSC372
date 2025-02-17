@@ -17,4 +17,5 @@ public class CheckingAccount extends BankAccount {
         System.out.println("* Interest Rate: %" + (interestRate*100));
     }
 
+    
 }
