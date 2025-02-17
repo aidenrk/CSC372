@@ -13,7 +13,7 @@ public class BankAccount {
         if (amount < 0) {
             System.out.println("Please enter a valid amount!");
         }else{
-            balance += balance;
+            balance = balance + amount;
             System.out.println("Your new account balance is: $" + balance);
         }
     }
