@@ -26,15 +26,15 @@ public class BankAccount {
         }
     }
 
-    public void getFName(String firstName) {
+    public void setFName(String firstName) {
         this.firstName = firstName;
     }
 
-    public void getLName(String lastName) {
+    public void setLName(String lastName) {
         this.lastName = lastName;
     }
 
-    public void getAccountID(Integer accountID) {
+    public void setAccountID(Integer accountID) {
         this.accountID = accountID;
     }
 
