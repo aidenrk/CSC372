@@ -1,3 +1,4 @@
+package Module1;
 public class CheckingAccount extends BankAccount {
     private double interestRate = 0.07;
 
