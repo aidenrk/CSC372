@@ -1,6 +1,6 @@
 package Module1;
 public class CheckingAccount extends BankAccount {
-    private double interestRate = 0.07;
+    private double interestRate = 7;
 
     public void processWithdrawal(double amount) {
         if ((this.getBalance() - amount) < 0 ) {
@@ -15,7 +15,7 @@ public class CheckingAccount extends BankAccount {
 
     public void displayAccount() {
         accountSummary();
-        System.out.println("* Interest Rate: %" + (interestRate*100));
+        System.out.println("* Interest Rate: %" + (interestRate));
     }
 
     
