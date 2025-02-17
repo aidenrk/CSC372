@@ -13,7 +13,7 @@ public class CheckingAccount extends BankAccount {
     }
 
     public void displayAccount() {
-        this.accountSummary();
+        accountSummary();
         System.out.println("* Interest Rate: %" + (interestRate*100));
     }
 
